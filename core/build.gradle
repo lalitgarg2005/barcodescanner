@@ -9,13 +9,7 @@ ext {
 }
 
 dependencies {
-    compile supportLibraryDependency
-}
-
-android {
-    defaultConfig {
-        //applicationId "${project.group}.core"
-    }
+    compile libraries.support_v4
 }
 
 def coreAarFile = file('build/outputs/aar/core.aar')
@@ -33,7 +27,7 @@ uploadArchives {
             }
             pom.groupId = 'co.poynt.android'
             pom.artifactId = 'poynt-barcodescanner-core'
-            pom.version = '1.7.3'
+            pom.version = '1.7.4'
         }
     }
 }
