@@ -10,7 +10,7 @@ ext {
 
 dependencies {
     compile project(":core")
-    //compile 'me.dm7.barcodescanner:core:1.7.5'
+    //compile 'me.dm7.barcodescanner:core:1.7.6-SNAPSHOT'
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 
@@ -36,7 +36,7 @@ uploadArchives {
             }
             pom.groupId = 'co.poynt.android'
             pom.artifactId = 'poynt-barcodescanner-zbar'
-            pom.version = '1.7.5'
+            pom.version = '1.7.6-SNAPSHOT'
         }
     }
 }
