@@ -27,7 +27,7 @@ uploadArchives {
             }
             pom.groupId = 'co.poynt.android'
             pom.artifactId = 'poynt-barcodescanner-core'
-            pom.version = '1.7.4'
+            pom.version = '1.7.5'
         }
     }
 }
